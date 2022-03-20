@@ -1,8 +1,5 @@
 package com.become.lottery.vo;
 
-/**
- * Created by TangYaoRong On 2020/7/2
- */
 public class PrizeEntity {
     public String name;
     public boolean checked;

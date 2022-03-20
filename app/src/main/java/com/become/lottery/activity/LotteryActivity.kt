@@ -12,9 +12,6 @@ import com.become.lottery.view.LotteryView
 import com.become.lottery.vo.PrizeEntity
 import kotlinx.android.synthetic.main.activity_lottery.*
 
-/**
- * Created by TangYaoRong On 2020/6/28
- */
 class LotteryActivity : Activity(), LotteryView.OnLotteryFinishListener {
 
     private lateinit var mExpectation: RecyclerView

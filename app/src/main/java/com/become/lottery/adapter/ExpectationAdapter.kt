@@ -6,9 +6,6 @@ import com.become.lottery.vo.PrizeEntity
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 
-/**
- * Created by TangYaoRong On 2020/7/2
- */
 class ExpectationAdapter(
     data: MutableList<PrizeEntity>? = null
 ) : BaseQuickAdapter<PrizeEntity, BaseViewHolder>(R.layout.item_expecation, data) {

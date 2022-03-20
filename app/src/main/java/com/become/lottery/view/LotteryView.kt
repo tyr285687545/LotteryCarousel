@@ -17,9 +17,6 @@ import kotlin.math.cos
 import kotlin.math.sin
 
 
-/**
- * Created by TangYaoRong On 2020/6/22
- */
 class LotteryView : View {
 
     private var mPaint: Paint = Paint(Paint.ANTI_ALIAS_FLAG)

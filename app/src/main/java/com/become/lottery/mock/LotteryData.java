@@ -5,9 +5,6 @@ import com.become.lottery.vo.PrizeEntity;
 
 import java.util.ArrayList;
 
-/**
- * Created by TangYaoRong On 2020/7/2
- */
 public class LotteryData {
     private static LotteryData instance;
     private PrizeEntity prizeEntity;
