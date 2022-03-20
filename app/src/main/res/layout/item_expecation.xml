@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen10"
+    android:elevation="@dimen/dimen5"
+    tools:ignore="all">
+
+    <CheckBox
+        android:id="@+id/item_lottery_name"
+        android:layout_width="@dimen/dimen100"
+        android:layout_height="wrap_content"
+        android:background="@color/color_lottery_expectation_bg_layout"
+        android:button="@null"
+        android:checked="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:padding="@dimen/dimen10"
+        android:text="山地自行车"
+        android:textColor="@color/color_lottery_expectation_layout" />
+</RelativeLayout>
